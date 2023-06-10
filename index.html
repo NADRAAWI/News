@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Websire</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        background: #f1f1f1;
+    }
+    
+    /*header/blog title*/
+    .header{
+        padding: 20px;
+        text-align: center;
+        background: white;
+    }
+    
+    .header h1{
+        font-size: 50px;
+    }
+    
+    /*top navigation bar*/
+    .topnav{
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    /*style the topnav link*/
+    .topnav{
+        float:center;
+        display: block;
+        color: f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /*color on hover*/
+    .topnav a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /*columns floats*/
+    /*leftcolumn*/
+    .leftcolmn{
+        float:left ;
+        width: 75%; 
+    }
+    
+    /*rightcolumn*/  
+    .righttcolmn{
+        float:left ;
+        width: 25%; 
+        padding: 20px;
+    }
+    
+    /*fake image*/
+    .fake image{
+        background-color:#aaa;
+        width: 100px;
+        padding: 20px;
+        margin-top: 5px;
+    }
+    
+    /*card effecct*/
+    .card{
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    /*row after columns*/
+    .row:after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    
+    /*footer*/
+    .footer{
+        background-color: #ddd;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;  
+    }
+    
+    /*resposive layout - when the screen is less than 800px wide, make the two columns stack on top  of each other instead of next to each other */
+    @media screen and (max: width 800%;) {
+    .leftcolumn, .rightcolumn {
+        width: 100px;
+        padding: 0;
+        }
+    }
+    
+    /*resposive layout - when the screen is less than 800px wide, make the two columns stack on top  of each other instead of next to each other */
+    @media screen and (max: width 800%;) {
+        .topnav a {
+            width: 100px;
+            float: none;
+            }
+        }
+
+    .Corses-button {
+       background-color:rgb(138, 49, 138);
+       size: 10px;
+       float: left;
+       color:white;
+       border:none;
+       margin: 5px;
+       height:36px;
+       width:194px;
+       border-radius:8px;
+       cursor:pointer;
+       transition: 1s ;
+       
+    }
+    .Corses-button:hover{
+        background-color: black;
+    }
+.checkbtn{
+    f
+}
+        </style>
+</head>
+<body>
+    
+    <div class="header">
+    <h1 style="color: rgb(151, 25, 151);">NADRAAWI NEWS</h1>
+    <p style="color: #333;
+    font-size: 200%;">Somaali News</p>
+</div>
+
+<button class="Corses-button">
+Home</button>
+<Button class="Corses-button">
+Blog</Button>
+<Button class="Corses-button">
+About Use</Button>
+<Button class="Corses-button">
+Loging</Button>
+<Button class="Corses-button">
+Register</Button>
+<Button class="Corses-button">
+Subscribe</Button>
+
+</div>
+
+<div class="row">
+ <div class="leftcolumn">
+<div class="card">
+    <h2 style="color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;">WAR</h2>
+    <h5 style="font-size: 165%;
+    text-align: center;">Dowladda Soomaliya oo sheegtay iney u diyaar garowday la wareegista amniga dalkeeda</h5>
+<img src="image/1137c1c4-1f92-445a-b84f-123c41087dbe.jpg"style="height:400px; width:100%">
+       <p style="font-size: 150%;">Dowladda Soomaaliya, ayaa soo dhoweysay kala guurka hawgalka ammaanka ee ciidamada ATMIS ee Soomaaliya, iyadoo la guda galay abaabulka iyo hannaanka ka bixitaanka dalka Soomaaliya ciidamadani.
+        Qoraal kasoo baxay wasaaradda gaashaandhiga xukuumadda Soomaaliya, ayaa lagu sheegay in ciidamadeedu ay u diyaar u yihiin la wareegista amniga gudaha si buuxda.
+        Dowladda federaalka Soomaaliya oo ka gacan ka heleysa bah wadaagta ay iska kaashadaan dhanka ammaanka, ayaa bilihii lasoo dhaafay waxey tababartay ciidamado, kuwaasoo kala wareegaya amniga ciidamada ATMis oo gaaraya 2,000, goobo ay kusugan yihiin.
+        Ciidamada ATMIS, ayaa kama danbeyn si buuxda ugu wareejin doonna mas’uuliyadda amniga dhammaadka bishan June ee sanadkan 2023-ka ciidamada dowladda Soomaaliya, sida uu qorayo qaraarada Qaramada Midoobay Golihiisa Ammaanka, ee tirsigooodu yihiin 2628 iyo 2670.</p>
+</div>
+
+   <div class="card">
+      <h2 style="color: black;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 250%;
+         text-align: center;">CAALAM</h2>
+       <h5 style="font-size: 165%;
+       text-align: center;">Waa maxay sababta Donald Trump haatan dacwad looggu soo oogayo?</h5>
+       <img src="image/5e2137f8-00d6-41e8-9aff-66e828532912.jpg" style="height:400px; width:100%">
+       <p style="font-size: 150%;">Khubarada cilmi-nafsiga ah, ayaa sheegay in haatan ay gabo gabo ku dhowdahay baaritaanka uu ku sameynayo Donald Trump, baaraha gaarka ah ee Jack Smith, ee ku aaddan qaabkii uu madaxweynihii hore ee Mareykakna, Donald Trump, u maamulay dukumentiyada sirta ah.</p>
+   </div>
+
+<h2 style="color:black;
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;">SPORT</h2>
+<h5 style="font-size: 165%;
+    text-align: center;">Shanta xiddig ee ilaa caawa u kala wareegi kara kooxaha Yurub</h5>
+    <img src="image/ea048340-29e4-11ed-abdc-dd6a4ae77e67.webp" style="height:400px; width:100%">
+<p style="font-size: 150%;">Saacado kooban ayaa ka dhiman xilliga uu xirmayo suuqa kala iibsiga xiddigaha kubbadda cagta ee shanta horyaal ee ugu weyn Yurub. Waxaa ugu hor xirmi doona suuqyada horyaallada Ingiriiska, La Liga Spain iyo Ligue 1 France.
+    Kooxaha waaweyn ee Yurub ayaa suuqa ku farraqay lacag badan si ay u helaan saxiixa xiddigo wax weyn ku soo kordhin kara kooxahooda cusub.
+    Kooxaha horyaalka Ingiriiska oo keliya oo suuqoodu uu xirmayo saacado kaddib ayaa kharash-gareeyay lacag dhan 1.5 bilyan oo gini saddexdii bil ee uu furnaa suuqa.
+    Lacagtaas waa qiimaha ugu sarreeya abid ee kooxaha Ingiriiska ay ciyaartoy kula soo wareegaan hal xilli-ciyaareed.</p>
+</div>
+
+   <div class="rightcolumn">
+   <div class="card">
+       <h2 style="color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;">DAL</h2>
+       <h5 style="font-size: 165%;
+       text-align: center;">Qoysas ka dhoofayay xerada Dhadhaab oo dib u dejina ka helay dalalka galbeedka oo sheegay inay caqabad la soo daristay</h5>
+       <img src="image/40fdcd6b-d141-42e0-946b-239dfa3d0875.jpg" style="height:400px; width:100%">
+       <p style="font-size: 150%;">Qoysas ku nool xeryaha qaxootiga ee Dhadhaab oo dib u dejin ka helay dalalka Galbeedka, ayaa ka cabanaya in hannaankii ay ku bixi lahaayeen laga hor joogsaday.
+        Tani ayaa dhacday, kadib markii la sheegay in diiwaanka qaxootiga uu muujinayo in dadkaas beri hore ay ku noqdeen dalka Soomaaliya. Dadka ay arrinta saamaysay oo qaarkood la soo xiriiray BBC-da, ayaa beeniyay inay si khiyaarkood ah dib ugu noqdeen Soomaaliya.
+        Waxaa ay ku doodeen in weligood aanay ka bixin xeryaha qaxootiga ee Dhadhaab. Waxaa dadkaas kamid ah Axmed Cabdullahi. Sida uu waraysi laga qaaday ku sheegay Axmed, xildhibaanka baarlamaanka Kenya ku metala deegaanka Dhadhaab, Faarax Macallin.
+        Faarax ayaa ku hawlan sidii wax looga qaban lahaa dhibaatada soo wajahday dadkaas, sugaya inay u duulaan waddamada dib u dejinta siiyay</p>
+   </div>
+</div>
+</div>
+
+<div class="Footer">
+    <h2>footer</h2>
+</div>
+</body>
+</html>
